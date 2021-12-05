@@ -20,7 +20,7 @@ namespace Zadacha16._1
             Product product3 = new Product();
             Product product4 = new Product();
             Product product5 = new Product();
-            Product[] products = new Product[] { product1, product2, product3, product4, product5};
+            Product[] products = new Product[] { product1, product2, product3, product4, product5 };
 
             int productNumber = 0;
 
@@ -67,8 +67,8 @@ namespace Zadacha16._1
 
             double[] arrayPrices = new double[] { productsRead[0].ProductPrice, productsRead[1].ProductPrice, productsRead[2].ProductPrice, productsRead[3].ProductPrice, productsRead[4].ProductPrice };
             double maxPrice = arrayPrices[0];
-            int productReadNumber=0;
-            for (int i = 0; i<5; i++)
+            int productReadNumber = 0;
+            for (int i = 0; i < 5; i++)
             {
                 if (arrayPrices[i] > maxPrice)
                 {
